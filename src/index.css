@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.font-xs {
+  font-size: 12px;
+}
+
+.font-sm {
+  font-size: 14px;
+}
+
+.font-md {
+  font-size: 16px;
+}
+
+.font-lg {
+  font-size: 20px;
+}
+
+.font-xl {
+  font-size: 24px;
+}
+
+.font-2xl {
+  font-size: 30px;
+}
+
+.bg-orange{
+  background-color: #FD9639;
+}
+
+.bg-orangelight{
+  background-color: #FEAF69;
+}
+
+.bg-cream{
+  background-color: #FFF4EA;
+}
+
+.orangebackground{
+    background-image: url(/public/Assets/Orangebg.png);
+    background-size: cover;
+    width: 100%;
+    background-position: bottom;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    color: black !important;
+    padding: 25px !important;
+    background-color: #FD9639 !important;
+    border-radius: 50% !important;
+}
+
+.bannerslider .swiper-button-prev,
+.bannerslider .swiper-button-next{
+    display: none !important;
+}
+
+.bannerslider .swiper-pagination-bullet-active{
+    display: none;
+}
+
+.bannerslider .swiper-pagination-bullet{
+    display: none;
+}
+.swiper-pagination-bullet-active{
+    background-color: #FD9639 !important;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 15px !important;
+}
+.bannerslider .swiper-button-prev, .bannerslider .swiper-button-next{
+    color: #fd9639 !important;
+    background-color: #FD9639 !important;
+}
+  .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    display: none !important;
+  }
+
+.featuredflavour{
+    position: relative !important;
+}
+
+ .featuredflavour .swiper-button-next{
+    position: absolute !important;
+    top: 20% !important;
+ }
+
+ .featuredflavour .swiper-button-prev{
+    position: absolute !important;
+    top: 20% !important;
+    right: 50% !important;
+ }
+
+ .featuredflavour .swiper-wrapper{
+    position: static !important;
+ }
+
+ .featuredflavour .swiper{
+    position: static !important;
+ }
+
+ .featuredflavour .swiper-button-prev
+ {
+    left: 70% !important;
+}
+.featuredflavour .swiper-button-next {
+    left: 80% !important;
+}
+
+.header h2{
+  color: #fd9639 !important;
+}
+
+.item-name {
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.item-disc{
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+
+}
+.basics-half{
+    flex-basis: 50%;
+}
+  .signin-form-container {
+
+    opacity: 0;
+    transform: scale(0);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+
+  .signin-form-container.show {
+    opacity: 1;
+    transform: scale(1);
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    z-index: 999;
+
+}
+
+input:focus,
+input:active {
+  outline: none;
+}
+input::placeholder {
+  color: #000000;
+}
+
+.footer p{
+  padding: 4px 0;
+}
+
+.Contactpage-overlay {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url(/public/Assets/Contactpagebg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100%;}
+
+
+
